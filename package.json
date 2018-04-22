@@ -1,0 +1,23 @@
+{
+  "name": "responsiveaccessibleform",
+  "version": "1.0.0",
+  "description": "This project is intended to simulate a shopping cart checkout form. The first intent is to have a fully responsive form, that fits both mobile and desktop (mobile 1st). The second intent, is that any obvious accessibility flaws should be met, to make the form/website as user-friendly as possible.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KuhnSteven/ResponsiveAccessibleForm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KuhnSteven/ResponsiveAccessibleForm/issues"
+  },
+  "homepage": "https://github.com/KuhnSteven/ResponsiveAccessibleForm#readme",
+  "dependencies": {
+    "gulp-cli": "^2.0.1",
+    "gulp-sass": "^4.0.1"
+  }
+}

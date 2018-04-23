@@ -75,18 +75,6 @@ img {
   border: solid black 1px;
   background-color: goldenrod; }
 
-#radioBox {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  width: 60%;
-  padding-top: 5px;
-  margin-left: 25px;
-  border: solid black 1px;
-  background-color: lightgray;
-  font-size: 20px;
-  font-weight: bold; }
-
 #price {
   padding-top: 10px;
   padding-left: 10px;
@@ -114,3 +102,16 @@ img {
   overflow-x: hidden;
   border: solid black 1px;
   padding: 8px; }
+
+/* Class Selectors */
+.radioBox {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width: 60%;
+  padding-top: 5px;
+  margin-left: 25px;
+  border: solid black 1px;
+  background-color: lightgray;
+  font-size: 20px;
+  font-weight: bold; }

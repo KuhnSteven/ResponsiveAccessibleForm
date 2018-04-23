@@ -1,14 +1,12 @@
 <!DOCTYPE html>
-<!-- INDEX -->
-<html lang="en">
-
+<html>
 <head>
     <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dog Hoodie</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <title>Index</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
 </head>
-
 <body>
     <form id="form" onsubmit="return formValidation()">
         <h1>Dog Hoodie</h1>
@@ -21,20 +19,20 @@
             <input type="radio" id="size" value="medium">Medium
             <input type="radio" id="size" value="large">Large
         </div>
-
+    
         <div id="radioBox">
             <label for="color" id="radioLabels">Color: </label>
             <input type="radio" id="color" value="blue" checked> Blue
             <input type="radio" id="color" value="gold"> Gold
             <input type="radio" id="color" value="pink"> Pink
         </div>
-
+    
         <h2>Contact Info</h2>
         <label for="name">Your Name: </label>
         <input id="name" type="text" required>
         <label for="email">email: </label>
         <input id="email" type="text" required>
-
+    
         <h2>Shipping Info</h2>
         <label for="sAddress">Shipping Address: </label>
         <input id="sAddress" type="text" required>
@@ -300,15 +298,15 @@
             <option value="Yemen" title="Yemen">Yemen</option>
             <option value="Zambia" title="Zambia">Zambia</option>
             <option value="Zimbabwe" title="Zimbabwe">Zimbabwe</option>
-        </select><br>
-
+        </select>
+        <br>
+    
         <div id="btnContainer">
-        <button type="reset">Clear</button>
-        <button type="submit">Submit</button>
+            <button type="reset">Clear</button>
+            <button type="submit">Submit</button>
         </div>
     </form>
+    <div id="formFeedback"></div>   
     <script src="js/index.js"></script>
 </body>
-
-<!-- END OF DOCUMENT -->
 </html>

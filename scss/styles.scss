@@ -4,36 +4,49 @@ html {
     background-color: gray;
 }
 
+// Mobile Media 1st
+@media only screen and (min-width: 320px) and (max-width: 800px) {
+    img {
+        width: 25%;
+    }
+
+    /* End of mobile media rules */
+}
+
 form {
-        display: flex;
-        justify-content: space-between;
-        flex-flow: column;
-        background-color: white;
-        border: solid black 3px;
-        width: 75%;
-        margin-left: 25px;
-        padding-left: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+    background-color: white;
+    border: solid black 3px;
+    width: 50%;
+    margin-left: 25px;
+    padding-left: 5px;
+
     label {
         display: inline-block;
-        padding: 5px;
-        padding-left: 10px;
+        padding-left: 25px;
     }
+
     input[type="radio"] {
-        margin-left: 7px;
+        margin-left: 3px;
     }
+
     input[type="text"] {
-        margin-left: 10px;
+        margin-left: 25px;
         height: 25px;
         width: 250px;
     }
+
     input[type="number"] {
-        margin-left: 10px;
+        margin-left: 25px;
         font-size: 15px;
         height: 25px;
         width: 75px;
     }
+
     select {
-        margin-left: 10px;
+        margin-left: 25px;
         font-size: 15px;
         height: 25px;
         width: 250px;
@@ -42,6 +55,7 @@ form {
 
 h1, h2, h3 {
 margin-left: 10px;
+margin-top: 25px;
 }
 
 button {
@@ -53,11 +67,21 @@ button {
     justify-content: center;
 }
 
+img {
+    width: 50%;
+    height: auto;
+    border: double black 10px;
+    padding: 20px;
+    margin-left: 25px;
+}
+
+/* ID Selectors */
 #btnContainer {
     height: 75px;
-    width: 25%;
+    width: 50%;
     display: flex;
     flex-flow: row wrap;
+    align-self: center;
     justify-content: space-around;
     margin: 25px;
     padding: 5px;
@@ -70,11 +94,28 @@ button {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-
-    width: 25%;
+    width: 60%;
     padding-top: 5px;
+    margin-left: 25px;
     border: solid black 1px;
-    background-color: lightslategray;
-    font-size: 23px;
+    background-color: lightgray;
+    font-size: 20px;
     font-weight: bold;
+}
+
+#price {
+    padding-top: 10px;
+    padding-left: 10px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 35px;
+    font-weight: bold;
+    height: 50px;
+    width: 75px;
+    border: solid black 1px;
+}
+
+#radioLabels {
+    padding-left: 0px;
 }

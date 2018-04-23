@@ -10,19 +10,21 @@
 </head>
 
 <body>
-    <form>
-        <h1>Order your stuff!</h1>
+    <form id="form" onsubmit="return formValidation()">
+        <h1>Dog Hoodie</h1>
+        <img src="pugHoodie.jpeg" alt="Product image: dog hoodie">
+        <div id="price">$20</div>
         <h2>Product Info</h2>
         <div id="radioBox">
-            <label for="size">Size: </label>
-            <input type="radio" id="size" value="small" checked required>Small
+            <label for="size" id="radioLabels">Size: </label>
+            <input type="radio" id="size" value="small" checked>Small
             <input type="radio" id="size" value="medium">Medium
             <input type="radio" id="size" value="large">Large
         </div>
 
         <div id="radioBox">
-            <label for="color">Color: </label>
-            <input type="radio" id="color" value="blue" checked required> Blue
+            <label for="color" id="radioLabels">Color: </label>
+            <input type="radio" id="color" value="blue" checked> Blue
             <input type="radio" id="color" value="gold"> Gold
             <input type="radio" id="color" value="pink"> Pink
         </div>
@@ -305,6 +307,7 @@
         <button type="submit">Submit</button>
         </div>
     </form>
+    <script src="js/index.js"></script>
 </body>
 
 <!-- END OF DOCUMENT -->
